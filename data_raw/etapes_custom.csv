@@ -1,0 +1,31 @@
+etape,depart,arrivee,distance_km,d_plus_m,d_minus_m,alt_min_m,alt_max_m,pente_moy_pct,km_start,km_end,score_effort,difficulte
+1,Le Puy-en-Velay,Refuge Municipal Accueil Pelerin,24.7,939.0,682.0,640.0,1214.0,2.3,0.0,24.66,0.725,Modéré
+2,Refuge Municipal Accueil Pelerin,Gîte Compostella,25.5,1332.0,1167.0,595.0,1102.0,2.0,24.66,50.17,0.898,Difficile
+3,Gîte Compostella,Gîte Bellevue,25.0,892.0,1033.0,961.0,1332.0,2.6,50.17,75.15,0.709,Modéré
+4,Gîte Bellevue,Gîte Communal,25.7,895.0,682.0,920.0,1177.0,2.0,75.15,100.89,0.72,Modéré
+5,Gîte Communal,La Cassagnolle,24.4,784.0,635.0,1149.0,1370.0,1.7,100.89,125.33,0.657,Modéré
+6,La Cassagnolle,Gite d Etape l'Estaou,23.7,987.0,1945.0,365.0,1325.0,1.9,125.33,149.06,0.731,Difficile
+7,Gite d Etape l'Estaou,N'Atura Hôtel,23.5,1141.0,1179.0,313.0,520.0,1.5,149.06,172.59,0.792,Difficile
+8,N'Atura Hôtel,Bidean,22.0,1454.0,1274.0,315.0,678.0,0.0,172.59,194.61,0.9,Difficile
+9,Bidean,L'Ancien Carmel de Condom,27.4,1238.0,1505.0,226.0,636.0,0.0,194.61,221.98,0.885,Difficile
+10,L'Ancien Carmel de Condom,Le Commerce,27.2,1028.0,1047.0,182.0,415.0,2.5,221.98,249.17,0.796,Difficile
+11,Le Commerce,Caselle,26.1,816.0,720.0,192.0,399.0,2.5,249.17,275.25,0.693,Modéré
+12,Caselle,Gariotte,24.8,809.0,799.0,144.0,379.0,1.8,275.25,300.08,0.672,Modéré
+13,Gariotte,Au bon moment,25.8,366.0,492.0,199.0,327.0,1.7,300.08,325.92,0.503,Facile
+14,Au bon moment,Le Par'Chemin,28.3,1027.0,947.0,113.0,304.0,2.7,325.92,354.22,0.81,Difficile
+15,Le Par'Chemin,L'Étape,27.8,774.0,818.0,145.0,286.0,2.1,354.22,382.07,0.699,Modéré
+16,L'Étape,La Quintarde,24.6,746.0,880.0,101.0,241.0,1.7,382.07,406.71,0.644,Modéré
+17,La Quintarde,Maison Duler - Domaine de Saint-Géry,28.3,855.0,899.0,56.0,189.0,2.1,406.71,434.98,0.739,Difficile
+18,Maison Duler - Domaine de Saint-Géry,La Prévôté,23.8,713.0,664.0,56.0,216.0,2.1,434.98,458.74,0.619,Modéré
+19,La Prévôté,Gîtes Izaxulo,29.3,794.0,710.0,75.0,217.0,1.6,458.74,488.06,0.728,Difficile
+20,Gîtes Izaxulo,Solenca,20.2,486.0,572.0,73.0,214.0,2.5,488.06,508.22,0.476,Facile
+21,Solenca,Camping Beau Rivage,25.4,548.0,516.0,79.0,168.0,1.8,508.22,533.64,0.573,Facile
+22,Camping Beau Rivage,Logis Hôtel Chez Camilou,22.5,425.0,447.0,95.0,179.0,1.6,533.64,556.18,0.483,Facile
+23,Logis Hôtel Chez Camilou,Royal Aubrac,26.7,336.0,370.0,82.0,164.0,1.0,556.18,582.83,0.503,Facile
+24,Royal Aubrac,Chez Jane,27.8,509.0,404.0,80.0,219.0,1.2,582.83,610.6,0.59,Facile
+25,Chez Jane,Hôtel de France,27.7,618.0,673.0,103.0,246.0,1.5,610.6,638.27,0.633,Modéré
+26,Hôtel de France,L'Orée du Chemin,22.4,451.0,424.0,72.0,231.0,1.4,638.27,660.7,0.492,Facile
+27,L'Orée du Chemin,Camping Roc de l'Arche,18.8,507.0,553.0,98.0,262.0,1.7,660.7,679.54,0.466,Facile
+28,Camping Roc de l'Arche,Le Camp de Florence,21.1,441.0,431.0,99.0,191.0,1.4,679.54,700.63,0.47,Facile
+29,Le Camp de Florence,Camping Les Ombrages,25.3,1096.0,1030.0,65.0,296.0,2.9,700.63,725.89,0.798,Difficile
+30,Camping Les Ombrages,Arrivée,18.7,604.0,618.0,158.0,286.0,1.5,725.89,744.564151916716,0.505,Facile

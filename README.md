@@ -31,29 +31,32 @@ Structure:
 | `notebooks/99_correct_place_names.ipynb` | Correction manuelle geocoding |
 
 
-# Structure du projet
+## Structure du projet
+
+```
 via-podiensis-project/
 ├── data_raw/
-│   ├── via-podiensis-full-route.gpx     
-│   ├── profile_srtm.csv                 
-│   │                                         
-│   │                                         
-│   ├── route_srtm.geojson               
-│   ├── geocode_cache.json               
-│   └── a_corriger.csv                   
+│   ├── via-podiensis-full-route.gpx     ← source brute
+│   ├── profile_srtm.csv                 ← dataset enrichi (lat, lon, time,
+│   │                                         elevation, distance_m, elevation_diff,
+│   │                                         slope, place_name)
+│   ├── route_srtm.geojson               ← tracé ligne pour SIG
+│   ├── geocode_cache.json               ← cache Photon persisté
+│   └── a_corriger.csv                   ← outil correctif temporaire
 │
 ├── notebooks/
-│   ├── 00_explore_gpx_ipyn.ipynb        
-│   │                                         
-│   └── 99_correct_place_names.ipynb     
+│   ├── 00_explore_gpx_ipyn.ipynb        ← exploration & ingestion (SRTM +
+│   │                                         geocoding + profil + export)
+│   └── 99_correct_place_names.ipynb     ← correction manuelle Lieu inconnu
 │
 ├── src/
 │   └── etl/
-│       └── parse_gpx_srtm.py            
-│                                              
+│       └── parse_gpx_srtm.py            ← script ETL CLI complet
+│                                              (--input, --min_dist, --verbose, --cache)
 │
 ├── app/
-│   └── streamlit_app.py                 
+│   └── streamlit_app.py                 ← dashboard interactif
 │
 ├── requirements.txt
 └── README.md
+```
